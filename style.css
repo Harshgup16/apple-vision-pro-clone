@@ -1,0 +1,424 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    /* background-color: #000; */
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    /* background-color: #fff; */
+
+}
+#page1 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+#page1 nav button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    /* background-color: #000; */
+    color: #000;
+}
+#page1 nav h3{
+    font-weight: 400;
+    /* color: #000000; */
+}
+#page1 video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #fffdfd; */
+}
+/* #page2 #page2-middle{
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    white-space: nowrap;
+} */
+#page2 #page2-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 1.3vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    /* background-color: #000; */
+    /* max-width: 970px; */
+    /* margin: auto; */
+}
+#page2 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fffdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #a01111;
+}
+#page4 #page4-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 3vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    /* background-color: #000; */
+    /* max-width: 970px; */
+    /* margin: auto; */
+}
+#page4 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #a01111;
+}
+#page5 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+#page16{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page16 #page16-middle{
+    max-width: 800px;   
+    margin: auto;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #00000025; */
+    /* background-color: #00000025; */
+}
+#page16 #page16-middle h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+}
+#page16 #page16-middle h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+#page16 #page16-middle h2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1vw;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#page17{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F5F5F7;
+}
+#page17 canvas{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 99;
+}
+
+#page18{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f4646;
+}
+
+#page18-right{
+    max-width: 300px;
+    margin: auto;
+    font-size: 1.4vw;
+    color: #000000;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+}
+
+
+#page19{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d52222;
+}   
+
+#page20{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #3b9547;
+}      
+
+#page21{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d8bb2d;
+}         
+
+#page22{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #1c2b68; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}            
+
+.left22{
+    height: 93%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com//v/apple-vision-pro/f/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+    background-size: cover;
+    /* background-color: #000; */
+}
+.right22{
+    height: 93%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/f/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+    background-size: cover;
+    /* background-color: #000; */
+}
+#page23{
+    position: relative;
+    height: 100vh;
+    width: 100vw;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.middle23{
+    height: 95%;
+    width: 95%;
+    background-color: #000;
+    overflow: hidden;
+}
+.middle23 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page24{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}   
+#page24 p{
+    font-size: 2.4vw;
+    text-align: center;
+    line-height: 1.2;
+}
+#page24 p span{
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+#page25{
+    margin-top: 25px;
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page25 img{
+    /* height: 100%;
+    width: 100%; */
+    object-fit: cover;
+}
+
+#page26{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page26 #page26-middle{
+    max-width: 800px;   
+    margin: auto;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #00000025; */
+    /* background-color: #00000025; */
+}
+#page26 #page26-middle h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: #fff;
+}
+#page26 #page26-middle h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8;
+}
+#page26 #page26-middle p{
+    margin-top: 50px;
+    font-size: 1.7vw;
+    text-align: center;
+    /* line-height: 1.2; */
+    color: #fff;
+    /* max-width: 800px; */
+}
+#page26 #page26-middle p span{
+    color: #fff;
+    font-weight: 600;
+}
+
+#page27{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+}
+#page27 canvas{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #000;
+}
+#page28{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 800px; */
+    margin: auto;
+}
+#page28-middle{
+    max-width: 800px;
+    /* margin-left: 10%; */
+}
+#page28 h1{
+    font-size: 2.4vw;
+    
+}
+#page28 p{
+    font-size: 2.4vw;
+    text-align: center;
+    line-height: 1.2;
+}
+#page28 p span{
+    color: #000;
+    font-weight: 600;
+}
